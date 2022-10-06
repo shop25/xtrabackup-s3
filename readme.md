@@ -40,7 +40,16 @@ secret_access_key =
 acl = bucket-owner-full-control
 ```
 
-## How to use
+## How to Install
+```bash
+mkdir -p /opt/shop25
+cd /opt/shop25
+git clone https://github.com/shop25/xtrabackup-s3.git
+chomod +x xtrabackup-s3/xtrabackup-s3.sh
+ln -s /opt/shop25/xtrabackup-s3/xtrabackup-s3.sh /usr/sbin/xtrabackup-s3
 ```
-xtrabackup-s3.sh -n <project-name> -p <backet-path>
+
+## How to Use
+```
+xtrabackup-s3 -n <project-name> -p <backet-path>
 ```
