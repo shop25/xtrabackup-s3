@@ -51,5 +51,5 @@ ln -s /opt/shop25/xtrabackup-s3/xtrabackup-s3.sh /usr/sbin/xtrabackup-s3
 
 ## How to Use
 ```
-xtrabackup-s3 -n <project-name> -p <backet-path>
+xtrabackup-s3 -p <project-name> -b <backet-path>
 ```
